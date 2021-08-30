@@ -1,0 +1,112 @@
+body {
+    background-image: url("pattern-background-desktop.svg");
+    background-repeat: no-repeat;
+    background-color: hsl(225, 100%, 94%);
+    font-family: 'Red Hat Display';
+    height: 100%;
+    text-align: center;
+}
+
+h1 {
+    font-weight: 900;
+    font-size: 30px;
+    color: hsl(223, 47%, 23%);
+    padding-bottom: 10px;
+}
+
+h2 {
+    font-weight: 900;
+    font-size: 16px;
+    color: hsl(223, 47%, 23%);
+    line-height: 1.5rem;
+}
+
+p {
+    font-weight: 500;
+    font-size: 16px;
+    color: hsl(224, 23%, 55%);
+}
+
+.summary-box {
+    background-color: white;
+    text-align: center;
+    width: 450px;
+    height: 80%;
+    margin: 8% auto;
+    border-radius: 15px;
+    overflow: hidden;
+}
+
+.order-summary {
+    padding: 10%;
+}
+
+.summary-text {
+    margin-bottom: 25px;
+    padding: 0 20px;
+}
+
+.price-box {
+    background-color: hsl(225, 100%, 98%);
+    border-radius: 10px;
+    height: 100px;
+    margin: auto;
+}
+
+.price {
+  text-align: left;
+  margin: auto;
+  padding: 0;
+}
+
+.price h2, .price p {
+    margin: 0 auto;
+}
+
+.col-3 a {
+    color: hsl(228, 45%, 44%);
+    font-weight: 700;
+    text-decoration: underline;
+}
+
+.col-3 a:hover {
+    color: rgb(98, 80, 238);
+    text-decoration: none;
+}
+
+button {
+    display: block;
+    width: 100%;
+    font-weight: 700;
+    color: white;
+    background-color: hsl(245, 75%, 52%);
+    margin: 30px auto;
+    height: 50px;
+    border: none;
+    border-radius: 10px;
+}
+button:hover {
+    background-color: rgb(98, 80, 238);
+}
+
+.cancel {
+    font-weight: 700;
+    color: hsl(224, 23%, 55%);
+}
+
+.cancel:hover {
+    color: hsl(223, 47%, 23%);
+    text-decoration: none;
+}
+
+
+/* Footer */
+
+.attribution { 
+    font-size: 11px; 
+    text-align: center; 
+}
+
+.attribution a { 
+    color: hsl(228, 45%, 44%); 
+}
